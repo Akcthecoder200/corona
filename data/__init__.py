@@ -9,5 +9,5 @@ with open(os.path.join(BASEDIR, "nl63.fasta")) as f:
 def get_amber99sb():
   from xml.dom import minidom
   amber99sb = minidom.parse(os.path.join(BASEDIR, "amber99sb.xml"))
-  return amber99sb
+  return amber99
 
